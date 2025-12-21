@@ -14,6 +14,11 @@ License:        wxWidgets
 URL:            https://utelle.github.io/wxsqlite3
 Source0:        https://github.com/utelle/wxsqlite3/archive/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  dos2unix
 BuildRequires:  pkgconfig(sqlite3)
 BuildRequires:  wxgtku%{wxversion}-devel
